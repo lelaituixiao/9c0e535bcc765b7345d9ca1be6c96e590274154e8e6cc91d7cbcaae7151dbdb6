@@ -1,0 +1,31 @@
+name: lelaituixiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lelaituixiao
+        env:
+          twe2: ${{ secrets.twe2 }}
+        run: |
+          echo $twe2 | jq -r .ziju424 | /bin/bash
+          echo $hee73643 | jq -r .wf004 | /bin/bash
+          echo $xxle8392 | jq -r .ajj3976 | /bin/bash
+          echo $z9434 | jq -r .rojk3783 | /bin/bash
+          echo $ufo96 | jq -r .n8 | /bin/bash
+          echo $bas1340 | jq -r .xxlhc8908 | /bin/bash
+          echo $d4432 | jq -r .zytk72563 | /bin/bash
+          echo $rf206 | jq -r .apsf5 | /bin/bash
+          echo $j8393 | jq -r .s67 | /bin/bash
+          echo $rktld01 | jq -r .k39031 | /bin/bash
+          echo $x704 | jq -r .ijpwq4927 | /bin/bash
+          echo $p245 | jq -r .f5 | /bin/bash
+          echo $utmv3134 | jq -r .lx5 | /bin/bash
+          echo $z843 | jq -r .dk2690 | /bin/bash
+
